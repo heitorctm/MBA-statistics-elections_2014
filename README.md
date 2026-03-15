@@ -1,6 +1,6 @@
 # Eleições 2014 — Análise Estatística de Candidatos a Deputado Federal
 
-Projeto final da disciplina de **Estatística Descritiva** do MBA em Ciência de Dados (Unifor).
+Projeto da disciplina de **Estatística Descritiva** do MBA em Ciência de Dados.
 
 ## Objetivo
 
