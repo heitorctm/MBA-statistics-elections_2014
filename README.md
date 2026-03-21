@@ -1,35 +1,35 @@
-# Eleições 2014 — Análise Estatística de Candidatos a Deputado Federal
+# Brazilian Elections 2014 — Statistical Analysis of Federal Deputy Candidates
 
-Projeto da disciplina de **Estatística Descritiva** do MBA em Ciência de Dados.
+Project for the **Descriptive Statistics** course of the MBA in Data Science.
 
-## Objetivo
+## Objective
 
-Analisar o financiamento de campanhas e o resultado eleitoral dos candidatos a Deputado Federal nas eleições gerais de 2014, identificando padrões relacionados a gasto, votos e variáveis demográficas (gênero, raça e escolaridade).
+Analyze campaign financing and electoral results of Federal Deputy candidates in the 2014 general elections, identifying patterns related to spending, votes, and demographic variables (gender, race, and education).
 
-## Dados
+## Data
 
-| Arquivo | Fonte | Descrição |
+| File | Source | Description |
 |---|---|---|
-| `datasets/eleicoes.csv` | Professor | Dataset principal: gasto e votos por candidato |
-| `datasets/extra/prestacao_final_2014/` | TSE | Despesas declaradas por nota fiscal |
-| `datasets/extra/consulta_cand_2014/` | TSE | Cadastro oficial: situação eleitoral e dados demográficos |
+| `datasets/eleicoes.csv` | Professor | Main dataset: spending and votes per candidate |
+| `datasets/extra/prestacao_final_2014/` | TSE | Declared expenses by invoice |
+| `datasets/extra/consulta_cand_2014/` | TSE | Official registry: electoral status and demographic data |
 
-Fonte externa: [dadosabertos.tse.jus.br](https://dadosabertos.tse.jus.br), Eleições Gerais 2014.
+External source: [dadosabertos.tse.jus.br](https://dadosabertos.tse.jus.br), 2014 General Elections.
 
-## Estrutura do Notebook
+## Notebook Structure
 
 1. **Imports**
-2. **Preparação e Enriquecimento** — join com dados do TSE e validação do dataset
-3. **Análise Exploratória** — distribuição de gastos, análise por estado, partido, e variáveis qualitativas
-4. **Síntese e Conclusões** — tabelas descritivas e padrões identificados
+2. **Preparation and Enrichment** — join with TSE data and dataset validation
+3. **Exploratory Analysis** — spending distribution, analysis by state, party, and qualitative variables
+4. **Summary and Conclusions** — descriptive tables and identified patterns
 
-## Principais Achados
+## Key Findings
 
-- Candidatos eleitos gastaram em média **77x mais** que os não eleitos
-- Mulheres representam 29,6% das candidaturas mas concentram apenas 9,6% do gasto total
-- Candidatos brancos com ensino superior capturam a maior parte dos recursos e das vagas
+- Elected candidates spent on average **77x more** than non-elected ones
+- Women represent 29.6% of candidacies but account for only 9.6% of total spending
+- White candidates with higher education capture the largest share of resources and seats
 
-## Requisitos
+## Requirements
 
 ```
 pandas
