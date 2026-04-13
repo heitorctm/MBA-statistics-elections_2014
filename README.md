@@ -1,4 +1,4 @@
-# Brazilian Elections 2014 — Statistical Analysis of Federal Deputy Candidates
+# Brazilian Elections 2014: Statistical Analysis of Federal Deputy Candidates
 
 Project for the **Descriptive Statistics** course of the MBA in Data Science.
 
